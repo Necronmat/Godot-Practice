@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8s8h30rjnbmp"]
+
+[ext_resource type="Texture2D" uid="uid://bet3mqiuo8gdt" path="res://Menus/Glorpa in the Backrooms.jpg" id="1_15ql5"]
+
+[node name="Main Game" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="Camera2D"]
+offset_left = -579.0
+offset_top = -321.0
+offset_right = 581.0
+offset_bottom = 322.0
+texture = ExtResource("1_15ql5")
+expand_mode = 1
